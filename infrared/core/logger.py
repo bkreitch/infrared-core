@@ -1,10 +1,11 @@
+
 import logging
 import sys
 import traceback
 
 import colorlog
 
-from infrared.core.utils import exceptions
+from infrared.core import exceptions
 
 logger_formatter = colorlog.ColoredFormatter(
     "%(log_color)s%(levelname)-8s%(message)s",
